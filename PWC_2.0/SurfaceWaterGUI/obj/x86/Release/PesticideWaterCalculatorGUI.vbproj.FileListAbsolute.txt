@@ -1,0 +1,8 @@
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\PrimaryOutput\PWC_GUI.exe
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\PrimaryOutput\PWC_GUI.pdb
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.Form1.resources
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.HelpInfo.resources
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.Resources.resources
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\PesticideWaterCalculatorGUI.vbproj.GenerateResource.Cache
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\PWC_GUI.exe
+C:\Users\Dirk\My Programs\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\PWC_GUI.pdb

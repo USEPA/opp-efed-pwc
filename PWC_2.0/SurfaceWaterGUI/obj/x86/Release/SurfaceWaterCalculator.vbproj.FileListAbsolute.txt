@@ -1,0 +1,9 @@
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\bin\Release\SurfaceWaterGUI.exe
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\bin\Release\SurfaceWaterGUI.pdb
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterCalculator.vbproj.ResolveComReference.cache
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.Form1.resources
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.HelpInfo.resources
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.Resources.resources
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterCalculator.vbproj.GenerateResource.Cache
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.exe
+E:\SurfaceWaterCalculator\SurfaceWaterGUI\obj\x86\Release\SurfaceWaterGUI.pdb
