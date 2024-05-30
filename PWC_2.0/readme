@@ -1,1 +1,9 @@
-loading
+
+The Pesticide in Water Calculator (PWC) Version 2.001 version simulates pesticide applications to land surfaces and the pesticide’s subsequent transport to and fate in water bodies, including surface water bodies as well as simple ground water aquifers. 
+
+This version of the PWC provides additional crop schedule options, improved sediment-waterbody interactions, and the ability to use more recent weather files.   
+
+Version Note: Version 2.001 differs from 2.0 in that 2.001 does not uninstall the previously distributed version (1.52) and installs to a different default directory than the default 1.52 directory and thus file conflicts are avoided.
+
+Note: The latest PWC version (3) is available to download through https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/models-pesticide-risk-assessment#atmospheric
+
