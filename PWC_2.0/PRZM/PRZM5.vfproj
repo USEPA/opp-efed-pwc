@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{7808CAA6-D132-41DE-A151-070E7F8FC58C}">
+	<Platforms>
+		<Platform Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler" OutputDirectory="..\PrimaryOutput">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" MultiProcessorCompilation="true" Optimization="optimizeFull" F2003Semantics="true" StandardWarnings="standardWarningsF08" WarnDeclarations="true" WarnUnusedVariables="true" WarnIgnoreLOC="true" WarnTruncateSource="true" WarnUncalled="true" WarnInterfaces="true" IntegerKIND="integerKIND8" RealKIND="realKIND8" DoublePrecisionKIND="doublePrecisionKIND16" Traceback="true" RuntimeChecks="rtChecksAll" BoundsCheck="true" UninitializedVariablesCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler" OutputDirectory="..\PrimaryOutput">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" BufferedIO="true" IntegerKIND="integerKIND8" RealKIND="realKIND8" DoublePrecisionKIND="doublePrecisionKIND16"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="ReleaseExcept|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl;inc">
+		<File RelativePath=".\source\Allocations.f90"/>
+		<File RelativePath=".\source\Calibration.f90">
+			<FileConfiguration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" StandardWarnings="standardWarningsF08"/></FileConfiguration></File>
+		<File RelativePath=".\source\ConstantsVariables.f90"/>
+		<File RelativePath=".\source\Curve_Number_Table.f90"/>
+		<File RelativePath=".\source\Erosion.f90"/>
+		<File RelativePath=".\source\Evapotranspiration.f90"/>
+		<File RelativePath=".\source\Hydrolgy.f90"/>
+		<File RelativePath=".\source\Initialization.f90"/>
+		<File RelativePath=".\source\Irrigation.f90"/>
+		<File RelativePath=".\source\NonidealSorption.f90"/>
+		<File RelativePath=".\source\Output_File.f90"/>
+		<File RelativePath=".\source\Pesticide_Application.f90"/>
+		<File RelativePath=".\source\Plant_Pesticide_Processes.f90"/>
+		<File RelativePath=".\source\PlantGrowth.f90"/>
+		<File RelativePath=".\source\PRZM5.f90"/>
+		<File RelativePath=".\source\PRZM_core.f90">
+			<FileConfiguration Name="Debug|Win32">
+			<Tool Name="VFFortranCompilerTool" Optimization="optimizeMaxSpeed"/></FileConfiguration></File>
+		<File RelativePath=".\source\PRZM_Version.f90"/>
+		<File RelativePath=".\source\ReadInputs.f90"/>
+		<File RelativePath=".\source\Temperature_Calcs.f90"/>
+		<File RelativePath=".\source\Tridiagonal.f90"/>
+		<File RelativePath=".\source\Utilities.f90"/>
+		<File RelativePath=".\source\volatilization.f90"/></Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>

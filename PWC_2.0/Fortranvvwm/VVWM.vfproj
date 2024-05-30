@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{B68D59CA-055A-482A-A9BA-2FD375A9C0A4}">
+	<Platforms>
+		<Platform Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler" OutputDirectory="..\PrimaryOutput">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" F2003Semantics="true" StandardWarnings="standardWarningsF08" Diagnostics="diagnosticsShowAll" WarnDeclarations="true" WarnUnusedVariables="true" WarnUncalled="true" WarnInterfaces="true" IntegerKIND="integerKIND8" RealKIND="realKIND8" Traceback="true" RuntimeChecks="rtChecksAll" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug" Interfaces="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler" OutputDirectory="..\PrimaryOutput">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RealKIND="realKIND8"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="ReleaseExcept|Win32" UseCompiler="ifortCompiler" OutputDirectory="..\PrimaryOutput">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\source\ALLOCATION.F90"/>
+		<File RelativePath=".\source\CoreCalculations.F90"/>
+		<File RelativePath=".\source\degradation.F90"/>
+		<File RelativePath=".\source\MassInputs.f90"/>
+		<File RelativePath=".\source\nonInputVariables.F90"/>
+		<File RelativePath=".\source\omega_mass_xfer.f90"/>
+		<File RelativePath=".\source\outputprocessing.f90">
+			<FileConfiguration Name="Release|Win32">
+			<Tool Name="VFFortranCompilerTool" HeapArrays="0"/></FileConfiguration></File>
+		<File RelativePath=".\source\ProcessMetffiles.f90"/>
+		<File RelativePath=".\source\solute_holding_capacity.f90"/>
+		<File RelativePath=".\source\StartupVVWM.F90"/>
+		<File RelativePath=".\source\Utilities.F90"/>
+		<File RelativePath=".\source\Variables.F90"/>
+		<File RelativePath=".\source\VolumeAndWashout.f90"/>
+		<File RelativePath=".\source\VVWM.f90"/></Filter>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
